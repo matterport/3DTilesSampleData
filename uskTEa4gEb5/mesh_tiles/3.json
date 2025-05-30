@@ -1,0 +1,110 @@
+{
+  "asset": {
+    "version": "1.0",
+    "tilesetVersion": "1.2.0",
+    "extras": {
+      "name": "Matterport 3d-tiles",
+      "depth": 4,
+      "preset": "medium2"
+    }
+  },
+  "extensionsUsed": [
+    "3DTILES_content_gltf"
+  ],
+  "extensionsRequired": [
+    "3DTILES_content_gltf"
+  ],
+  "extensions": {
+    "3DTILES_content_gltf": {
+      "extensionsUsed": [
+        "KHR_draco_mesh_compression",
+        "MTTR_three_mesh_bvh",
+        "KHR_texture_basisu"
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_basisu"
+      ]
+    }
+  },
+  "geometricError": 9007199254740991,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        0.4529991149902344,
+        8.897500991821289,
+        5.794500291347504,
+        36.68400192260742,
+        0,
+        0,
+        0,
+        -24.26350212097168,
+        0,
+        0,
+        0,
+        7.683500349521637
+      ]
+    },
+    "geometricError": 9007199254740991,
+    "refine": "REPLACE",
+    "children": [
+      {
+        "content": {
+          "uri": "0/lod0_room0_chunk1.glb"
+        },
+        "extras": {
+          "level": 0,
+          "roomIndex": 0,
+          "chunkIndex": 1,
+          "id": "lod0_room0_chunk1",
+          "maxTextureSize": 2048,
+          "textureScale": 1,
+          "texelSize": 64
+        },
+        "geometricError": 0.18,
+        "children": [
+          {
+            "boundingVolume": {
+              "box": [
+                0.4589996337890625,
+                8.90149974822998,
+                5.795000374317169,
+                36.67300033569336,
+                0,
+                0,
+                0,
+                -24.250500679016113,
+                0,
+                0,
+                0,
+                7.669000327587128
+              ]
+            },
+            "geometricError": 0.09,
+            "refine": "REPLACE",
+            "content": {
+              "uri": "3_0_1.json"
+            }
+          }
+        ],
+        "boundingVolume": {
+          "box": [
+            0.4589996337890625,
+            8.90149974822998,
+            5.795000374317169,
+            36.67300033569336,
+            0,
+            0,
+            0,
+            -24.250500679016113,
+            0,
+            0,
+            0,
+            7.669000327587128
+          ]
+        },
+        "refine": "REPLACE"
+      }
+    ]
+  }
+}

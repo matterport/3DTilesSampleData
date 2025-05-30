@@ -15,3 +15,11 @@ Textures are externally referenced from the .glb files, since matterport re-uses
 Matterport has an internal extenstion to 3d-tiles which identifies the tiles in view, and will prioritize streaming in higher resolution .jpg texture for a number of tiles. information about the content of the individual tiles, the texelSize of each texture and what the scale factor is between the .ktx2 minimal texture and the full resolution texture is included in the tile.extras.
 
 # Models
+
+## Legion of Honor
+Source matterport showcase link: [Legion of Honor](https://my.matterport.com/show?m=uskTEa4gEb5&tiledmesh=1&debugTiles=1&dmenu=1&tileStatsOverlay=true&wireframe%3AuskTEa4gEb5=true&sm=2&sr=-2.2,.4,2.64&sp=12.92,44.85,-43.11)
+
+Files:
+[mesh_tiles/tileset.json](./uskTEa4gEb5/mesh_tiles/tileset.json) - Full tileset: 
+[mesh_tiles/4.json](./uskTEa4gEb5/mesh_tiles/4.json) - Minimal entry tileset with the bulk of the data in external tilesets: 
+[jsonstore/trims.json](./uskTEa4gEb5/jsonstore/trims.json) - describes a bounding box within which we discard rendering of the tileset
