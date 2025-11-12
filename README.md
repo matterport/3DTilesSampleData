@@ -19,6 +19,9 @@ Matterport has an internal extenstion to 3d-tiles which identifies the tiles in 
 ## Legion of Honor
 Source matterport showcase link: [Legion of Honor](https://my.matterport.com/show?m=uskTEa4gEb5&tiledmesh=1&debugTiles=1&dmenu=1&tileStatsOverlay=true&wireframe%3AuskTEa4gEb5=true&sm=2&sr=-2.2,.4,2.64&sp=12.92,44.85,-43.11)
 
+## Cedar Creek
+Source matterport showcase link: [Cedar Creek](https://my.matterport.com/show?m=jFa8GTwwaik&tiledmesh=1&debugTiles=1&dmenu=1&tileStatsOverlay=true&colorize%253AjFa8GTwwaik=byChunk&sm=2&sr=-2.6%2C.44%2C2.89&sp=13.85%2C10.2%2C-41.22&wireframe%253AjFa8GTwwaik=true)
+
 Files:
 [mesh_tiles/tileset.json](./uskTEa4gEb5/mesh_tiles/tileset.json) - Full tileset: 
 [mesh_tiles/4.json](./uskTEa4gEb5/mesh_tiles/4.json) - Minimal entry tileset with the bulk of the data in external tilesets: 

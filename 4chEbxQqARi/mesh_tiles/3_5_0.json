@@ -1,0 +1,152 @@
+{
+  "asset": {
+    "version": "1.0",
+    "tilesetVersion": "1.2.0",
+    "extras": {
+      "name": "Matterport 3d-tiles"
+    }
+  },
+  "extensionsUsed": [
+    "3DTILES_content_gltf"
+  ],
+  "extensionsRequired": [
+    "3DTILES_content_gltf"
+  ],
+  "extensions": {
+    "3DTILES_content_gltf": {
+      "extensionsUsed": [
+        "KHR_draco_mesh_compression",
+        "MTTR_three_mesh_bvh",
+        "KHR_texture_basisu"
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_basisu"
+      ]
+    }
+  },
+  "geometricError": 0.09,
+  "root": {
+    "boundingVolume": {
+      "box": [
+        0.6345000267028809,
+        -1.8014999628067017,
+        1.1049999743700027,
+        1.9495000839233398,
+        0,
+        0,
+        0,
+        -2.143499970436096,
+        0,
+        0,
+        0,
+        1.3889999836683273
+      ]
+    },
+    "geometricError": 0.09,
+    "refine": "REPLACE",
+    "children": [
+      {
+        "content": {
+          "uri": "1/lod1_room5_chunk0.glb"
+        },
+        "extras": {
+          "level": 1,
+          "roomIndex": 5,
+          "chunkIndex": 0,
+          "id": "lod1_room5_chunk0",
+          "maxTextureSize": 512,
+          "textureScale": 0.5,
+          "texelSize": 30
+        },
+        "geometricError": 0.09,
+        "children": [
+          {
+            "content": {
+              "uri": "2/lod2_room5_chunk0.glb"
+            },
+            "extras": {
+              "level": 2,
+              "roomIndex": 5,
+              "chunkIndex": 0,
+              "id": "lod2_room5_chunk0",
+              "maxTextureSize": 1024,
+              "textureScale": 0.5,
+              "texelSize": 16
+            },
+            "geometricError": 0.03,
+            "children": [
+              {
+                "content": {
+                  "uri": "3/lod3_room5_chunk0.glb"
+                },
+                "extras": {
+                  "level": 3,
+                  "roomIndex": 5,
+                  "chunkIndex": 0,
+                  "id": "lod3_room5_chunk0",
+                  "maxTextureSize": 2048,
+                  "textureScale": 0.5,
+                  "texelSize": 8
+                },
+                "geometricError": 0.016,
+                "children": [],
+                "boundingVolume": {
+                  "box": [
+                    0.6540000438690186,
+                    -1.8019999414682388,
+                    1.0919999927282333,
+                    1.9670000076293945,
+                    0,
+                    0,
+                    0,
+                    -2.1599999517202377,
+                    0,
+                    0,
+                    0,
+                    1.3949999958276749
+                  ]
+                },
+                "refine": "REPLACE"
+              }
+            ],
+            "boundingVolume": {
+              "box": [
+                0.6355000138282776,
+                -1.8159999996423721,
+                1.0949999690055847,
+                1.95250004529953,
+                0,
+                0,
+                0,
+                -2.1479999870061874,
+                0,
+                0,
+                0,
+                1.3859999775886536
+              ]
+            },
+            "refine": "REPLACE"
+          }
+        ],
+        "boundingVolume": {
+          "box": [
+            0.6579999923706055,
+            -1.8014999628067017,
+            1.1049999743700027,
+            1.9730000495910645,
+            0,
+            0,
+            0,
+            -2.143499970436096,
+            0,
+            0,
+            0,
+            1.3889999836683273
+          ]
+        },
+        "refine": "REPLACE"
+      }
+    ]
+  }
+}
